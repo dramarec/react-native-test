@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MintyMintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MintyMintTests.m */; };
+		04C4F6357B1135F8C38D97BC /* libPods-MintyMint-MintyMintTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3975331A3645954BD60CAC5A /* libPods-MintyMint-MintyMintTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		AB8B179C107A4DF71FF3AB65 /* libPods-MintyMint-MintyMintTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1495B5D41FB66BAFD9DC2221 /* libPods-MintyMint-MintyMintTests.a */; };
-		B040429AE97FB3718B947178 /* libPods-MintyMint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 110353ABAEA6764BF64298D3 /* libPods-MintyMint.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8F451B103F42083C8BA6FE3A /* libPods-MintyMint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E492CEE2A7B23DFED5B91CF /* libPods-MintyMint.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,36 +30,36 @@
 		00E356EE1AD99517003FC87E /* MintyMintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintyMintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MintyMintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MintyMintTests.m; sourceTree = "<group>"; };
-		110353ABAEA6764BF64298D3 /* libPods-MintyMint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MintyMint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* MintyMint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintyMint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MintyMint/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MintyMint/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MintyMint/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MintyMint/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MintyMint/main.m; sourceTree = "<group>"; };
-		1495B5D41FB66BAFD9DC2221 /* libPods-MintyMint-MintyMintTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MintyMint-MintyMintTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		149EB7C0270CA2EB004D355F /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
-		149EB7C1270CA2EB004D355F /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
-		149EB7C2270CA2EB004D355F /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
-		149EB7C3270CA2EB004D355F /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
-		149EB7C4270CA2EB004D355F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
-		149EB7C5270CA2EB004D355F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
-		149EB7C6270CA2EB004D355F /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
-		149EB7C7270CA2EB004D355F /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
-		149EB7C8270CA2EB004D355F /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
-		149EB7C9270CA2EB004D355F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
-		149EB7CA270CA2EB004D355F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
-		149EB7CB270CA2EB004D355F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
-		149EB7CC270CA2EB004D355F /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
-		149EB7CD270CA2EB004D355F /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
-		149EB7CE270CA2EB004D355F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
-		149EB7CF270CA2EB004D355F /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
-		1E65F41639383DA7ED22B29A /* Pods-MintyMint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyMint.release.xcconfig"; path = "Target Support Files/Pods-MintyMint/Pods-MintyMint.release.xcconfig"; sourceTree = "<group>"; };
-		520B55B8F0D63E5D729BA5D8 /* Pods-MintyMint-MintyMintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyMint-MintyMintTests.debug.xcconfig"; path = "Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests.debug.xcconfig"; sourceTree = "<group>"; };
-		62D9616CEA55196700F4B6CA /* Pods-MintyMint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyMint.debug.xcconfig"; path = "Target Support Files/Pods-MintyMint/Pods-MintyMint.debug.xcconfig"; sourceTree = "<group>"; };
+		146800A5270CB49900D2970E /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		146800A6270CB49900D2970E /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		146800A7270CB49900D2970E /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		146800A8270CB49900D2970E /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		146800A9270CB49900D2970E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		146800AA270CB49900D2970E /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		146800AB270CB49900D2970E /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		146800AC270CB49900D2970E /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		146800AD270CB49900D2970E /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		146800AE270CB49900D2970E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		146800AF270CB49900D2970E /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		146800B0270CB49900D2970E /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		146800B1270CB49900D2970E /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		146800B2270CB49900D2970E /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		146800B3270CB49900D2970E /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		146800B4270CB49900D2970E /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		3975331A3645954BD60CAC5A /* libPods-MintyMint-MintyMintTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MintyMint-MintyMintTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E492CEE2A7B23DFED5B91CF /* libPods-MintyMint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MintyMint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D706816A03DC0D06EDAD3C9 /* Pods-MintyMint-MintyMintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyMint-MintyMintTests.release.xcconfig"; path = "Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MintyMint/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DB917828AAD89489D47DC14F /* Pods-MintyMint-MintyMintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyMint-MintyMintTests.release.xcconfig"; path = "Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6F7E9F36DF394A45EE73A89 /* Pods-MintyMint-MintyMintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyMint-MintyMintTests.debug.xcconfig"; path = "Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD2A06031771B00ED1041E41 /* Pods-MintyMint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyMint.release.xcconfig"; path = "Target Support Files/Pods-MintyMint/Pods-MintyMint.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F97DE7AE0B87C1EA362F9E66 /* Pods-MintyMint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyMint.debug.xcconfig"; path = "Target Support Files/Pods-MintyMint/Pods-MintyMint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8B179C107A4DF71FF3AB65 /* libPods-MintyMint-MintyMintTests.a in Frameworks */,
+				04C4F6357B1135F8C38D97BC /* libPods-MintyMint-MintyMintTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B040429AE97FB3718B947178 /* libPods-MintyMint.a in Frameworks */,
+				8F451B103F42083C8BA6FE3A /* libPods-MintyMint.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +99,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		065254DFA8AE33BADE722894 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F97DE7AE0B87C1EA362F9E66 /* Pods-MintyMint.debug.xcconfig */,
+				BD2A06031771B00ED1041E41 /* Pods-MintyMint.release.xcconfig */,
+				A6F7E9F36DF394A45EE73A89 /* Pods-MintyMint-MintyMintTests.debug.xcconfig */,
+				5D706816A03DC0D06EDAD3C9 /* Pods-MintyMint-MintyMintTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* MintyMint */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,47 +123,36 @@
 			name = MintyMint;
 			sourceTree = "<group>";
 		};
-		149EB7BF270CA2EB004D355F /* Fonts */ = {
+		146800A4270CB49900D2970E /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				149EB7C0270CA2EB004D355F /* Fontisto.ttf */,
-				149EB7C1270CA2EB004D355F /* Octicons.ttf */,
-				149EB7C2270CA2EB004D355F /* Feather.ttf */,
-				149EB7C3270CA2EB004D355F /* Entypo.ttf */,
-				149EB7C4270CA2EB004D355F /* FontAwesome5_Brands.ttf */,
-				149EB7C5270CA2EB004D355F /* MaterialCommunityIcons.ttf */,
-				149EB7C6270CA2EB004D355F /* AntDesign.ttf */,
-				149EB7C7270CA2EB004D355F /* Foundation.ttf */,
-				149EB7C8270CA2EB004D355F /* Ionicons.ttf */,
-				149EB7C9270CA2EB004D355F /* FontAwesome5_Solid.ttf */,
-				149EB7CA270CA2EB004D355F /* FontAwesome5_Regular.ttf */,
-				149EB7CB270CA2EB004D355F /* FontAwesome.ttf */,
-				149EB7CC270CA2EB004D355F /* Zocial.ttf */,
-				149EB7CD270CA2EB004D355F /* EvilIcons.ttf */,
-				149EB7CE270CA2EB004D355F /* SimpleLineIcons.ttf */,
-				149EB7CF270CA2EB004D355F /* MaterialIcons.ttf */,
+				146800A5270CB49900D2970E /* Fontisto.ttf */,
+				146800A6270CB49900D2970E /* Octicons.ttf */,
+				146800A7270CB49900D2970E /* Feather.ttf */,
+				146800A8270CB49900D2970E /* Entypo.ttf */,
+				146800A9270CB49900D2970E /* FontAwesome5_Brands.ttf */,
+				146800AA270CB49900D2970E /* MaterialCommunityIcons.ttf */,
+				146800AB270CB49900D2970E /* AntDesign.ttf */,
+				146800AC270CB49900D2970E /* Foundation.ttf */,
+				146800AD270CB49900D2970E /* Ionicons.ttf */,
+				146800AE270CB49900D2970E /* FontAwesome5_Solid.ttf */,
+				146800AF270CB49900D2970E /* FontAwesome5_Regular.ttf */,
+				146800B0270CB49900D2970E /* FontAwesome.ttf */,
+				146800B1270CB49900D2970E /* Zocial.ttf */,
+				146800B2270CB49900D2970E /* EvilIcons.ttf */,
+				146800B3270CB49900D2970E /* SimpleLineIcons.ttf */,
+				146800B4270CB49900D2970E /* MaterialIcons.ttf */,
 			);
 			name = Fonts;
 			path = "../../../../Library/Group Containers/group.com.apple.notes/Media/E7CE060E-B3C6-440A-9872-8A4EF1828E04/Fonts";
-			sourceTree = "<group>";
-		};
-		1CD2D6284BA3492CCD853F18 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				62D9616CEA55196700F4B6CA /* Pods-MintyMint.debug.xcconfig */,
-				1E65F41639383DA7ED22B29A /* Pods-MintyMint.release.xcconfig */,
-				520B55B8F0D63E5D729BA5D8 /* Pods-MintyMint-MintyMintTests.debug.xcconfig */,
-				DB917828AAD89489D47DC14F /* Pods-MintyMint-MintyMintTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				110353ABAEA6764BF64298D3 /* libPods-MintyMint.a */,
-				1495B5D41FB66BAFD9DC2221 /* libPods-MintyMint-MintyMintTests.a */,
+				3E492CEE2A7B23DFED5B91CF /* libPods-MintyMint.a */,
+				3975331A3645954BD60CAC5A /* libPods-MintyMint-MintyMintTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,13 +167,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				149EB7BF270CA2EB004D355F /* Fonts */,
+				146800A4270CB49900D2970E /* Fonts */,
 				13B07FAE1A68108700A75B9A /* MintyMint */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MintyMintTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				1CD2D6284BA3492CCD853F18 /* Pods */,
+				065254DFA8AE33BADE722894 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -194,12 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MintyMintTests" */;
 			buildPhases = (
-				A095FF35B763255ED5C0691C /* [CP] Check Pods Manifest.lock */,
+				1A01DE02577A00E09699FE8B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				E76AF6E99851BDA3AFDB9A56 /* [CP] Embed Pods Frameworks */,
-				A42F4F92034D3800582A07A7 /* [CP] Copy Pods Resources */,
+				FBAB93BE6CC2E4E01279563B /* [CP] Embed Pods Frameworks */,
+				0F2D9EDFFCA3126984E453C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,14 +217,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MintyMint" */;
 			buildPhases = (
-				82A37ED9DC6D5B7AAB3F7AFF /* [CP] Check Pods Manifest.lock */,
+				59DDB36A0722F6D79B000B0D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C4C64E035EB4674284FB2B6D /* [CP] Embed Pods Frameworks */,
-				49A0CBE11C95410D41708936 /* [CP] Copy Pods Resources */,
+				3997B387D2EC4B385EED9176 /* [CP] Embed Pods Frameworks */,
+				DE588A37AEEBCC1E559577F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,46 +305,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		49A0CBE11C95410D41708936 /* [CP] Copy Pods Resources */ = {
+		0F2D9EDFFCA3126984E453C7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MintyMint/Pods-MintyMint-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MintyMint/Pods-MintyMint-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintyMint/Pods-MintyMint-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		82A37ED9DC6D5B7AAB3F7AFF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MintyMint-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A095FF35B763255ED5C0691C /* [CP] Check Pods Manifest.lock */ = {
+		1A01DE02577A00E09699FE8B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,24 +344,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A42F4F92034D3800582A07A7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintyMint-MintyMintTests/Pods-MintyMint-MintyMintTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4C64E035EB4674284FB2B6D /* [CP] Embed Pods Frameworks */ = {
+		3997B387D2EC4B385EED9176 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,7 +361,46 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintyMint/Pods-MintyMint-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E76AF6E99851BDA3AFDB9A56 /* [CP] Embed Pods Frameworks */ = {
+		59DDB36A0722F6D79B000B0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintyMint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE588A37AEEBCC1E559577F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintyMint/Pods-MintyMint-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintyMint/Pods-MintyMint-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintyMint/Pods-MintyMint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBAB93BE6CC2E4E01279563B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -465,7 +469,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 520B55B8F0D63E5D729BA5D8 /* Pods-MintyMint-MintyMintTests.debug.xcconfig */;
+			baseConfigurationReference = A6F7E9F36DF394A45EE73A89 /* Pods-MintyMint-MintyMintTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -492,7 +496,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB917828AAD89489D47DC14F /* Pods-MintyMint-MintyMintTests.release.xcconfig */;
+			baseConfigurationReference = 5D706816A03DC0D06EDAD3C9 /* Pods-MintyMint-MintyMintTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -516,7 +520,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62D9616CEA55196700F4B6CA /* Pods-MintyMint.debug.xcconfig */;
+			baseConfigurationReference = F97DE7AE0B87C1EA362F9E66 /* Pods-MintyMint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -542,7 +546,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E65F41639383DA7ED22B29A /* Pods-MintyMint.release.xcconfig */;
+			baseConfigurationReference = BD2A06031771B00ED1041E41 /* Pods-MintyMint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
