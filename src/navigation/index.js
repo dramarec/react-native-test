@@ -4,12 +4,12 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { Calendar, Dashboard, Medication } from '../screens';
+import { TouchableOpacity } from 'react-native';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import Feather from 'react-native-vector-icons/Feather';
-import { TouchableOpacity } from 'react-native';
+import { Calendar, Dashboard, Medication, MedicationDetails } from '../screens';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -24,10 +24,11 @@ function DashboardScreenNavigator() {
                 },
             }}>
             <Stack.Screen
-                name="dashboard"
+                name="Dashboard"
                 component={Dashboard}
                 options={() => {
                     return {
+                        title: 'dashboard',
                         headerLeft: () => (
                             <TouchableOpacity style={{ marginRight: 20 }}>
                                 <Feather
@@ -54,10 +55,11 @@ function MedicationScreenNavigator() {
                 },
             }}>
             <Stack.Screen
-                name="medication"
+                name="Medication"
                 component={Medication}
                 options={() => {
                     return {
+                        title: 'medication',
                         headerLeft: () => (
                             <TouchableOpacity style={{ marginRight: 20 }}>
                                 <Feather
@@ -67,6 +69,15 @@ function MedicationScreenNavigator() {
                                 />
                             </TouchableOpacity>
                         ),
+                    };
+                }}
+            />
+            <Stack.Screen
+                name="MedicationDetails"
+                component={MedicationDetails}
+                options={() => {
+                    return {
+                        title: 'medication details',
                     };
                 }}
             />
@@ -84,10 +95,11 @@ function CalendarScreenNavigator() {
                 },
             }}>
             <Stack.Screen
-                name="calendar"
+                name="Calendar"
                 component={Calendar}
                 options={() => {
                     return {
+                        title: 'calendar',
                         headerLeft: () => (
                             <TouchableOpacity style={{ marginRight: 20 }}>
                                 <Feather
@@ -104,18 +116,17 @@ function CalendarScreenNavigator() {
     );
 }
 
-function RootNavigator() {
+function TabNavigator() {
     return (
         <Tab.Navigator
-            tabBarOptions={{
-                inactiveTintColor: '#ffbd7d',
-                activeTintColor: '#e47911',
-            }}
             screenOptions={{
+                tabBarShowLabel: false,
                 headerShown: false,
+                tabBarInactiveTintColor: '#ffbd7d',
+                tabBarActiveTintColor: '#e91e63',
             }}>
             <Tab.Screen
-                name="dashboard"
+                name="dashboardScreen"
                 component={DashboardScreenNavigator}
                 options={{
                     tabBarIcon: ({ focused, size, color }) => (
@@ -124,7 +135,7 @@ function RootNavigator() {
                 }}
             />
             <Tab.Screen
-                name="medication"
+                name="medicationScreen"
                 component={MedicationScreenNavigator}
                 options={{
                     tabBarIcon: ({ focused, size, color }) => (
@@ -137,7 +148,7 @@ function RootNavigator() {
                 }}
             />
             <Tab.Screen
-                name="calendar"
+                name="calendarScreen"
                 component={CalendarScreenNavigator}
                 options={{
                     tabBarIcon: ({ focused, size, color }) => (
@@ -152,7 +163,7 @@ function RootNavigator() {
 export default function Navigation() {
     return (
         <NavigationContainer>
-            <RootNavigator />
+            <TabNavigator />
         </NavigationContainer>
     );
 }
