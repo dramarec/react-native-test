@@ -5,12 +5,11 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 export default function Item({ item }) {
     const isChecked = item.checked;
     const checked = isChecked ? 'check-box' : 'check-box-outline-blank';
+
     return (
         <View style={styles.wrapItem}>
             <Text style={styles.textTime}>{item.time}</Text>
-
             <Text style={styles.textItem}>{item.medicament}</Text>
-
             <MaterialIcons name={checked} size={42} />
         </View>
     );

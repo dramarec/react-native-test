@@ -15,15 +15,15 @@ const medicationList = [
     { id: '03', time: '12:00', checked: true, medicament: 'soda' },
     { id: '04', time: '15:17', checked: true, medicament: 'islomin' },
     { id: '05', time: '18:00', checked: false, medicament: 'mint' },
+    { id: '06', time: '15:17', checked: true, medicament: 'islomin' },
+    { id: '07', time: '18:00', checked: false, medicament: 'mint' },
 ];
 export function Medication() {
     const navigation = useNavigation();
 
     const [medications, setMedications] = useState(medicationList);
-    console.log('🔥🚀 ===> Medication ===> medications', medications);
 
     const toggleCheck = id => {
-        console.log('🔥🚀 ===> Medication ===> id', id);
         setMedications(
             medications.map(el =>
                 el.id === id ? { ...el, checked: !el.checked } : el,
@@ -34,7 +34,9 @@ export function Medication() {
     return (
         <View style={styles.container}>
             <View style={styles.wrapper}>
-                <Text style={styles.textName}>Medication</Text>
+                <View style={styles.titleWrap}>
+                    <Text style={styles.title}>Medication</Text>
+                </View>
                 <FlatList
                     keyExtractor={item => item.id}
                     showsVerticalScrollIndicator={false}
@@ -69,13 +71,16 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         backgroundColor: '#ffcc',
         width: '100%',
-        padding: 15,
     },
-    textName: {
+    titleWrap: {
+        padding: 15,
+        borderBottomWidth: 1,
+        borderColor: '#ccc',
+    },
+    title: {
         fontSize: 24,
         lineHeight: 24,
         color: 'black',
         textAlign: 'center',
-        marginBottom: 24,
     },
 });

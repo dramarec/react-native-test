@@ -9,7 +9,9 @@ export function MedicationDetails() {
     return (
         <View style={styles.container}>
             <View style={styles.wrapper}>
-                <Text style={styles.textName}>{item.medicament}</Text>
+                <Text style={styles.textName}>
+                    {item.medicament.toUpperCase()}
+                </Text>
                 <Text style={styles.textName}>{item.time}</Text>
             </View>
         </View>
@@ -31,12 +33,13 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         padding: 15,
+        width: '100%',
     },
     textName: {
         fontSize: 24,
-        lineHeight: 24,
+        lineHeight: 34,
         color: 'black',
         textAlign: 'center',
-        margin: 24,
+        letterSpacing: 2,
     },
 });

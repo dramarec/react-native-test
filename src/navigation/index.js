@@ -20,6 +20,7 @@ function DashboardScreenNavigator() {
             screenOptions={{
                 headerTitleStyle: {
                     fontWeight: 'bold',
+                    paddingBottom: 60,
                     fontSize: 22,
                 },
             }}>
@@ -31,11 +32,7 @@ function DashboardScreenNavigator() {
                         title: 'dashboard',
                         headerLeft: () => (
                             <TouchableOpacity style={{ marginRight: 20 }}>
-                                <Feather
-                                    name="menu"
-                                    size={24}
-                                    backgroundColor="#ccfd"
-                                />
+                                <Feather name="menu" size={28} />
                             </TouchableOpacity>
                         ),
                     };
@@ -62,11 +59,7 @@ function MedicationScreenNavigator() {
                         title: 'medication',
                         headerLeft: () => (
                             <TouchableOpacity style={{ marginRight: 20 }}>
-                                <Feather
-                                    name="menu"
-                                    size={24}
-                                    backgroundColor="#ccfd"
-                                />
+                                <Feather name="menu" size={28} />
                             </TouchableOpacity>
                         ),
                     };
@@ -102,11 +95,7 @@ function CalendarScreenNavigator() {
                         title: 'calendar',
                         headerLeft: () => (
                             <TouchableOpacity style={{ marginRight: 20 }}>
-                                <Feather
-                                    name="menu"
-                                    size={24}
-                                    backgroundColor="#ccfd"
-                                />
+                                <Feather name="menu" size={28} />
                             </TouchableOpacity>
                         ),
                     };
@@ -122,15 +111,14 @@ function TabNavigator() {
             screenOptions={{
                 tabBarShowLabel: false,
                 headerShown: false,
-                tabBarInactiveTintColor: '#ffbd7d',
                 tabBarActiveTintColor: '#e91e63',
             }}>
             <Tab.Screen
                 name="dashboardScreen"
                 component={DashboardScreenNavigator}
                 options={{
-                    tabBarIcon: ({ focused, size, color }) => (
-                        <FontAwesome name="home" size={30} color={color} />
+                    tabBarIcon: ({ color }) => (
+                        <FontAwesome name="home" size={45} color={color} />
                     ),
                 }}
             />
@@ -138,12 +126,8 @@ function TabNavigator() {
                 name="medicationScreen"
                 component={MedicationScreenNavigator}
                 options={{
-                    tabBarIcon: ({ focused, size, color }) => (
-                        <FontAwesome5
-                            name="tablets"
-                            size={size}
-                            color={color}
-                        />
+                    tabBarIcon: ({ color }) => (
+                        <FontAwesome5 name="tablets" size={35} color={color} />
                     ),
                 }}
             />
@@ -151,8 +135,8 @@ function TabNavigator() {
                 name="calendarScreen"
                 component={CalendarScreenNavigator}
                 options={{
-                    tabBarIcon: ({ focused, size, color }) => (
-                        <AntDesign name="calendar" size={size} color={color} />
+                    tabBarIcon: ({ color }) => (
+                        <AntDesign name="calendar" size={35} color={color} />
                     ),
                 }}
             />
